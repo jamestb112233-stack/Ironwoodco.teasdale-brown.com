@@ -43,16 +43,15 @@
       padding:4px 0 16px;
     }
 
-    .hero img{
-      width:min(620px, 100%);
+    .logo{
+      width:min(465px, 75vw);
       height:auto;
       display:block;
-      margin:0 auto;
-      border-radius:6px;
+      margin:0 auto 14px;
     }
 
     .tagline{
-      margin:20px 0 0;
+      margin:16px 0 0;
       font-size:1.2rem;
       color:var(--muted);
       letter-spacing:.01em;
@@ -113,7 +112,7 @@
       line-height:1;
       cursor:pointer;
       z-index:2;
-      transition:background .2s ease, transform .2s ease;
+      transition:background .2s ease;
     }
 
     .nav-btn:hover{
@@ -142,12 +141,11 @@
       opacity:.72;
       flex:0 0 auto;
       background:#111;
-      transition:opacity .2s ease, border-color .2s ease, transform .2s ease;
+      transition:opacity .2s ease, border-color .2s ease;
     }
 
     .thumbs img:hover{
       opacity:1;
-      transform:translateY(-1px);
     }
 
     .thumbs img.active{
@@ -228,7 +226,6 @@
         width:min(100% - 18px, 1120px);
       }
 
-      .logo-panel,
       .carousel-wrap,
       .section{
         padding:14px;
