@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>
-if (location.hostname === "www.ironwoodco.co") {
-  location.href = "https://ironwoodco.co" + location.pathname + location.search;
+<script>
+if (
+  location.hostname === "ironwoodco.co" ||
+  location.hostname === "www.ironwoodco.co"
+) {
+  location.replace(
+    "https://ironwoodco.teasdale-brown.com" +
+    location.pathname +
+    location.search
+  );
 }
 </script>
   <meta charset="UTF-8">
